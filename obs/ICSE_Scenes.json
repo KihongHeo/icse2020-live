@@ -89,8 +89,8 @@
         "versioned_id": "wasapi_output_capture",
         "volume": 0.50794732570648193
     },
-    "current_program_scene": "Session no Speaker",
-    "current_scene": "Session no Speaker",
+    "current_program_scene": "Session",
+    "current_scene": "Session",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -149,6 +149,9 @@
             "name": "Session"
         },
         {
+            "name": "Session_slide"
+        },
+        {
             "name": "Session no Speaker"
         },
         {
@@ -159,6 +162,199 @@
         }
     ],
     "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
+            },
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image Slide Show",
+            "prev_ver": 419430403,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide1.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide2.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide3.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide4.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide5.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide6.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide7.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide8.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide9.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide10.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide11.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide12.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide13.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide14.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide15.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide16.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide17.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide18.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide19.png"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "/home/ubuntu/Desktop/icse2020-live/art/icse/Sessionslides/Slide20.png"
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "slideshow",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Image Slide Show": [],
+                "libobs.show_scene_item.Image Slide Show": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Session_slide",
+            "prev_ver": 419430403,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 8,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Image Slide Show",
+                        "pos": {
+                            "x": 247.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
